@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <title>JavaScript</title>
+    <script type="text/javascript">
+     var mAprovacao = 7
+
+        var nota1 =  parseInt(prompt("Insira a primeira nota:"))
+        var nota2 = parseInt(prompt("insira a segunda nota:"))
+        var nota3 = parseInt(prompt("Insira a terceira nota:"))
+        var nota4 = parseInt(prompt("Insira a segunda nota:"))
+
+        var media = (nota1 + nota2 + nota3 + nota4)/4
+
+        var faltas = parseInt(prompt("Insira as faltas"))
+        var mFaltas = 8
+        
+        if ((media > mAprovacao) && (faltas < mFaltas)){
+        	alert("aluno aprovado")
+        } else {
+        	alert("Aluno Reprovado")
+        } 
+
+
+    </script>
+</head>
+<body>
+</body>
+</html>
