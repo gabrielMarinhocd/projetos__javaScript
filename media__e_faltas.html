@@ -15,14 +15,18 @@
 
         var faltas = parseInt(prompt("Insira as faltas"))
         var mFaltas = 8
-        
+        /*
         if ((media > mAprovacao) && (faltas < mFaltas)){
         	alert("aluno aprovado")
         } else {
         	alert("Aluno Reprovado")
         } 
+        */
+        var resultado = (media >= mAprovacao) && (faltas <= mFaltas) ? 'Aprovado' : 'Reprovado' 
+        alert(resultado)
 
-
+        document.write("Media = "+media)
+        document.write("<br/>Numero de Faltas = "+faltas)
     </script>
 </head>
 <body>
