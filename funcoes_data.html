@@ -6,14 +6,14 @@
     <script >
     	
         // E necessario instaciar
-        var data = new Date()
+        //var data = new Date()
 
 
         // Apresenta a data com formatação DD/MM/AAAA
         //alert(data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear())
 
+        /*
         // Adiconar  / remover dias
-
         document.write(data.toString())
         //Adiciona um dia a mais 
         data.setDate(data.getDate() + 1)
@@ -24,11 +24,30 @@
         data.setMonth(data.getMonth() + 1)
         document.write('<br/>')
         document.write(data.toString())
-        
+
         //Adiciona um ano a mais 
         data.setFullYear(data.getFullYear() + 1)
         document.write('<br/>')
         document.write(data.toString())
+        */
+
+        // Soma de datas
+        var data1 = new Date(2017, 0, 15)
+        var data2 = new Date(2017, 0, 23)
+
+        //Converção para milisengundos com getTime()
+        document.write(data1.getTime())
+        document.write('<hr />')
+        document.write(data2.getTime())
+        document.write('<hr />')
+
+        var milisengundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+
+        var milisengundos_por_dia = (1*24*60*60*1000)
+        // Arendondando data com Math.ceil
+        document.write('A diferença entre data 1 e data 2 e de '+Math.ceil(milisengundos_entre_datas / milisengundos_por_dia) + ' dias')
+
+
     </script>
     </script>
 </head>
