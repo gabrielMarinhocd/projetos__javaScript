@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>JavaScript</title>
+ <script>
+ 	// troca a cor do input quando clicado
+ function acionaCampo() {
+ document.getElementById('campo').style.background = "yellow"
+ }
+
+ function validaCampo() {
+ // esvazia o imput
+ let valorCampo = document.getElementById('campo').value
+ // troca a cor do valor após ter digitado algo
+ if(valorCampo.length < 3) {
+ document.getElementById('campo').style.background = "red"
+ } else {
+ 	// troca a cor se tiver mais de 3 caracteres
+ document.getElementById('campo').style.background = "green"
+ }
+ }
+ </script>
+ </head>
+ <body>
+ <input id="campo" type="text" onfocus="acionaCampo()" onblur="validaCampo()" />
+ </body>
+</html>
