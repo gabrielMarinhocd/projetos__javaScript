@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script type="text/javascript">
+   	
+    	var listaFuncionarios = ['Vviane', 'Rosangela', 'Miguel', 'Lucas', 'Fernanda']
+    	
+    	//Possibilita usar a mesma função para ver diversos arrays
+    	var f = function(valor, indice){
+    		console.log(valor, indice)
+    	}
+    	//So e possivel em indices numericos
+    	listaFuncionarios.forEach(f);
+
+    	/*document.write(listaFuncionarios[3])
+    	listaFuncionarios.forEach(function(valor, indice, array){
+
+    		// indice mostra posição no Array
+    		// valor o que a dentro do Array
+    		// array valor do array 
+    		console.log('Indice' + indice + '| valor ' + valor)
+
+    		// Inserindo um novo valor 
+    		if (valor == 'Lucas'){
+    			array[indice] = 'Um novo valor'
+    		}
+    	})
+
+    	document.write('<br/>' + listaFuncionarios[3] + '<br/>')
+
+    	*/
+    </script>
+</head>
+<body>
+</body>
+
+</html>
