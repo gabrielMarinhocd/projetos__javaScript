@@ -5,10 +5,13 @@
     <title>JavaScript</title>
     <script >
         var janela
+
+        // Abri uma janela
         function abrirPopUp(){
             janela = window.open('', 'nova_janela', 'width=50, heigth=50')
         }
-
+        
+        //Fecha uma janela 
         function fecharPopUp(){
             janela.close()
         }
@@ -17,6 +20,8 @@
 <body>
         <button onclick="abrirPopUp()">Abrir janela</button>
         <button onclick="fecharPopUp()">Fechar janela</button>
+
+        <!--Imprimir  -->
         <button onclick="window.print()">Imprimir Pagina</button>
 </body>
 </html>
