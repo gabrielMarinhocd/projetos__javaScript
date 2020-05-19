@@ -1,0 +1,53 @@
+[33me8b13d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Tabuada sem entrada de dados
+[33m545b472[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m  Bom Controlando tempo: setTimeout, setInterval, clearInterval
+[33m0fbdc11[m BOM loacation: redirecionamento de pagina
+[33m24f0bed[m Bom Window: .screen.availHeight, .screen.availWidth | Responsividade
+[33m29d5694[m Bom Window: .open(), .close(), .print()
+[33m349743e[m Tratamento de erros: try, catch, finally
+[33m6f7978d[m Parametros variaveis
+[33m361abe1[m Estruturas de repetição: Foreach, possibilita criar mesma função para varios arrays
+[33m739a19d[m Estruturas de repetição: For In
+[33maccb54a[m Tabuada sem entrada de dados
+[33maef0538[m Tabuada com entrada de elementos
+[33m4a57562[m Laços de repetição e Arrays
+[33m941fd3e[m verificando se o numero e impar ou par
+[33m9fe1d53[m Estruturas de repetição: For
+[33m2e9407a[m Estruturas de repetição: Do while[
+[33mf6d230b[m Estruturas de repetição: while, continue e break
+[33m752daa3[m Desafio 3: receber dados do input, adicionar ao Array, ordenar em ordem alfabetica
+[33m1dd183d[m  Arrays ordenando: .sort() ordena em ordem albetica e .sort(ordenaNumeros) ordena em ordem numerica
+[33m06b3a57[m Arrays pesquisa: .indexOf() para procurar um intem pelo seu conteudo
+[33m82a095c[m Inserindo e deletando Arrays: push, anshift, pop, shift
+[33mc3004d2[m Arrays multiplos: Arrays que apontam para Arrays
+[33m89aab44[m Arrays
+[33m4864752[m Calculadora: eval para converção do calculo de string para int ou float
+[33m51e695f[m Desafio 2: troca de cores após clicar, digtar e se digitar mais de 3 carcteres
+[33m0d29e27[m Dom manipulando classes: getElementById e className
+[33m4ae9a1d[m Manipulando estilos: getElementById e style.background
+[33mc4b8bb5[m Desafio 2: separando elemtos por input em letras e números
+[33m959cbbb[m Elementos do DOM: getElementById, getElemtsByTagName, getElementsByClassName, getElementsByName
+[33m1c973c2[m Eventos formulario:  onfocus e onchange
+[33m66977fb[m Eventos janela: Onresize e onscroll
+[33ma9723f5[m Eventos teclado nkeydown, onkeyup, onkeypress
+[33m6029bfc[m Eventos com mouse: onclick, ondblclick, onmouseup, onmouseover, onmouseout
+[33mb7e6e33[m Merge branch 'master' of https://github.com/gabrielMarinhocd/projetos__javaScript
+[33md5e3ef9[m Atividade 2: Calcular a soma e subtrção
+[33m29bd9e1[m Update README.md
+[33m28ce7ca[m Diferença entre datas em dias
+[33mea29a35[m Modificando datas: Adicionando +1 dia, +1 mês, +1 ano
+[33m245b88e[m Formatando data DD/MM/AAAA
+[33mcca581d[m Arredondamento de valores
+[33m7493a1d[m Funçoes de Callback
+[33me60c8f0[m Funçoes anonimas
+[33m8662bc8[m Fuction com Return e com Void
+[33m748a31c[m Calulador de indixe de mass corporal
+[33m3961eae[m Modo de soma+=, subtração-=, somaString+=
+[33mc302a00[m Operadores Aritmeticos
+[33m343c6fb[m Usando switch
+[33mf9d367c[m Exercicio: Calcular faixa etaria
+[33md1fe91a[m Operador Ternario
+[33mc230f09[m Media e faltas
+[33m584b4ce[m Operadores logicos
+[33m172d429[m Praticando com toString
+[33m9e25988[m Primeiros arquivos javaScript
+[33mb0480c7[m Initial commit
